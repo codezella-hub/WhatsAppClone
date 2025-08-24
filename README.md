@@ -17,10 +17,10 @@ Clone d’une application de messagerie instantanée inspirée de **WhatsApp**, 
 
 ## 🛠️ Stack technique
 
-- **Frontend (UI)** : TypeScript, HTML, SCSS  
+- **Frontend (UI)** : TypeScript (Angular), HTML, SCSS  
 - **Backend** : Java (Spring Boot)  
-- **Base de données** : (à préciser – MySQL, PostgreSQL ou MongoDB)  
-- **Temps réel** : WebSocket / Socket.io (selon implémentation)  
+- **Base de données** :  MySQL  
+- **Temps réel** : WebSocket
 - **Conteneurisation** : Docker & Docker Compose  
 
 ---
@@ -72,7 +72,7 @@ Exemples de fonctionnalités :
 
 ```
 WhatsAppClone/
-│── whatsapp-clone-ui/       # Frontend (TypeScript, SCSS, HTML)
+│── whatsapp-clone-ui/       # Frontend ((Angular))
 │── whatsappclone/           # Backend (Java Spring Boot)
 │── uploads/users/           # Stockage des fichiers utilisateurs
 │── docker-compose.yml       # Orchestration conteneurs
@@ -89,7 +89,7 @@ cd whatsappclone
 ./mvnw test
 ```
 
-### Frontend (TypeScript)
+### Frontend ((Angular))
 ```bash
 cd whatsapp-clone-ui
 npm test
@@ -130,16 +130,7 @@ Les contributions sont les bienvenues !
 
 ---
 
-## 📄 Licence
 
-À préciser (MIT, Apache 2.0, GPL…).  
-👉 Exemple :  
-
-```
-MIT License
-```
-
----
 
 ## 👨‍💻 Auteur
 
