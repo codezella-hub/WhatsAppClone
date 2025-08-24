@@ -58,8 +58,8 @@ npm start
 
 ## ▶️ Utilisation
 
-- UI accessible sur : [http://localhost:3000](http://localhost:3000)  
-- API backend disponible sur : [http://localhost:8080](http://localhost:8080)  
+- UI accessible sur : [http://localhost:4200](http://localhost:4200)  
+- API backend disponible sur : [http://localhost:8089](http://localhost:8089)  
 
 Exemples de fonctionnalités :
 - 📩 Envoyer un message en temps réel
